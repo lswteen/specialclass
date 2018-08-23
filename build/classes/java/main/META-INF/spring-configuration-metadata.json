@@ -1,0 +1,22 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.slack.push.config.constant.CommonProperties",
+      "name": "push.info",
+      "type": "com.slack.push.config.constant.CommonProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.slack.push.config.constant.CommonProperties",
+      "name": "push.info.id",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.slack.push.config.constant.CommonProperties",
+      "name": "push.info.name",
+      "type": "java.lang.String"
+    }
+  ]
+}

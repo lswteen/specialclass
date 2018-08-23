@@ -1,0 +1,41 @@
+server:
+  port: 9090
+  compression:
+    min-response-size: 1
+    enabled: true
+
+spring:
+  application:
+    name: push
+  profiles:
+    active: local
+
+
+push.info:
+  name : sunu1980
+  id : sunu
+
+---
+spring:
+  profiles: local
+  redis:
+    host: localhost
+    port: 6379
+---
+spring:
+  profiles: local2
+  redis:
+    host: localhost
+    port: 6379
+
+---
+spring:
+  profiles: devlop
+
+---
+spring:
+  profiles: release
+
+---
+spring:
+  profiles: prod
