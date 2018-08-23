@@ -1,5 +1,7 @@
-# slackpush
-```
+# Special Class
+
+진행내용
+``` txt
     JOIN-SERVER NOTIFICATION 
     API 
     URI : http://localhost:9090/push/slack/send
@@ -26,4 +28,4 @@
     4. 출력된 ngrok 도메인 확인
     5. github 연결시 github -> Setting -> integrations & services 
     6. installed GitHub Apps jenkins(GitHub plugin) edit 수정  
-```
+``` txt
